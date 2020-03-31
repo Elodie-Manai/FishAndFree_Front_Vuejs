@@ -1,63 +1,13 @@
-# client-app
+### To install docker on windows: 
+https://docs.docker.com/toolbox/toolbox_install_windows/
 
-## Project setup
+### To build the project:
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+docker-compose build
 ```
 
-### Compiles and minifies for production
+### To run the project:
+```bash
+docker-compose up
+# it starts the front on http://localhost:80/
 ```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-# Mise en route du projet 
-
-## Installer Node si vous ne l'avez pas: https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi
-
-Exectuer l'application:
-
-* npm install
-* npm run serve
-
-Structure:
-* views 
-* components  
-* models 
-* services 
-* store 
-* App.vue 
-* router/index.ts: Déclaration des routes
-
-
-Pour run les test:
-
-* npm run test:e2e
-
-Dossier/Fichiers:
-* e2e
-    * specs
-        * test.js
